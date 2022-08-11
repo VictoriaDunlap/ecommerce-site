@@ -57,9 +57,9 @@ router.put('/:id', async(req, res) => {
         return Category.findAll({ where: { category_id: req.params.id } });
       })
       .then((category) => {
-        // get list of current tag_ids
+        // get list of current category_ids
         const categoryIds = category.map(({ category_id }) => category_id);
-        // create filtered list of new tag_ids
+        // create filtered list of new category_ids
         const newcategories = req.body.categoryIds
           .filter((category_id) => !categoryIds.includes(category_id))
           .map((category_id) => {
