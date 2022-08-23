@@ -1,6 +1,6 @@
 # BackEnd Ecommerce Site
 
-This app is intended to show how the backend of an ecommerce site would work. This uses command line prompts to intergrate the schema and seed the database. From there, the user is able to initiate localhost listening to test the routing. 
+This app is intended to show how the backend of an ecommerce site would work. This uses command line prompts to integrate the schema and seed the database. From there, the user is able to initiate localhost listening to test the routing. 
 
 ## Installation Instructions 
 
